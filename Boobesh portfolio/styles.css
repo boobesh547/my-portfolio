@@ -1,0 +1,224 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    background-image: url(https://png.pngtree.com/background/20240507/original/pngtree-3d-rendering-of-home-office-setup-featuring-portfolio-website-picture-image_8837229.jpg)
+}
+
+.about {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231006/pngtree-3d-rendered-laptop-screen-displaying-portfolio-website-image_13531646.png);
+}
+
+.education {
+    background-image: url(https://png.pngtree.com/background/20231030/original/pngtree-online-education-3d-render-of-a-computer-on-a-rustic-wooden-picture-image_5802577.jpg);
+}
+
+.skills {
+    background-image: url(https://png.pngtree.com/background/20231030/original/pngtree-d-rendering-of-web-design-indicators-along-with-software-development-concept-picture-image_5784734.jpg);
+}
+
+
+.certifications {
+    background-image: url(https://png.pngtree.com/background/20230522/original/pngtree-what-is-the-coolest-computer-art-picture-image_2688438.jpg);
+}
+
+.internship {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231006/pngtree-3d-rendered-view-of-a-cutting-edge-web-design-studio-image_13577146.png);
+}
+
+.portfolio {
+    background-image: url(https://png.pngtree.com/background/20231031/original/pngtree-3d-rendered-concept-of-computer-graphic-design-picture-image_5819830.jpg);
+}
+
+.contact {
+    background-image: url(https://png.pngtree.com/background/20240413/original/pngtree-d-rendered-mobile-apps-software-and-portfolio-frames-with-messaging-and-picture-image_8470905.jpg);
+}
+
+.section-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p, h3 {
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ddd;
+}
+
+
+
